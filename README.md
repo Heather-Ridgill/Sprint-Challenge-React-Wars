@@ -1,4 +1,4 @@
-# Sprint Challenge: React - Star Wars
+<!-- # Sprint Challenge: React - Star Wars
 
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored ReactJS, Function Components, component state and side effects. In your challenge for this Sprint, you will demonstrate proficiency by creating an application that uses ReactJS to consume live data retrieved from the World Wide Web and style that data nicely on the page.
 
@@ -18,7 +18,7 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 ## Description
 
-In this challenge, create a web page that presents a styled list of Star Wars characters. Being able to render out data to a web page is a large part of what JavaScript developers do, this challenge assesses your ability to achieve such a task.
+In this challenge, create a web page that presents a styled list of Star Wars characters. Being able to render out data to a web page is a large part of what JavaScript developers do, this challenge assesses your ability to achieve such a task. -->
 
 ## Self-Study/Essay Questions
 
@@ -26,15 +26,29 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+In short React is a very popular UI library. When you go to a website - it basically makes how you navigate through the site easier but clickable features and easy eye catching components. We use React because the web development world is always moving and changing and React library makes it so we can keep up with the changes at a faster pace.
+
+Support your answer with concepts introduced in class and from your personal research on the web.
+
 - [ ] What does it mean to _think_ in react?
+
+Thinking in react means to break down the components. You need to have pre planning. Next build up the JSX.
 
 - [ ] Describe state.
 
+The state is kind of like the "status" of what you are trying to achieve.
+
 - [ ] Describe props.
+
+Props can not be changed. Looked at it as being "read-only". Inside a function - you can pass the data through it as "props"
 
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
 
-## Project Set Up
+A side effect is anything outside of the function that affects something - IE Fetching data from an API.
+
+We can sync effects by passing in a dependency array for the 2nd argument.
+
+<!-- ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
@@ -60,7 +74,7 @@ Follow these steps for completing your project:
 
 Your finished project must include all of the following requirements:
 
-- [ ] Fetch a list of Star Wars characters from the [Star Wars API (or SWAPI)](https://swapi.co/) and render them to the screen. 
+- [ ] Fetch a list of Star Wars characters from the [Star Wars API (or SWAPI)](https://swapi.co/) and render them to the screen.
 - [ ] Follow the documentation to learn how to fetch a list of "people". However, don't spend _too_ long on this. Here is a link for you to follow if you've looked around the docs for about 15 minutes or so and haven't found where to go - [Secret Link to Awesomeness 🤫](https://swapi.co/documentation#people).
 - [ ] Set the data you fetch to state.
 - [ ] Map over the list and render a component for each character on the page.
@@ -87,7 +101,7 @@ It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wik
 - [ ] Build a pagination system that will allow you to load the next page of data.
   - `console.log()` the data coming back from the server.
   - Notice that there are `next` and `previous` fields that give you a URL.
-  - You can build a function that will get characters called `getCharacters` that you can use dynamically to get the next or previous set of characters. You would need to supply it with the proper fields, and you'll need to set up more state to do this.
+  - You can build a function that will get characters called `getCharacters` that you can use dynamically to get the next or previous set of characters. You would need to supply it with the proper fields, and you'll need to set up more state to do this. -->
 
 <!--
 - [ ] Build another app from scratch that looks very similar to this one. Inside of your main `App` component fetch some data in this same fashion from this url `https://dog.ceo/dog-api/#all` you'll have to follow the documentation at that website and figure out how to change up the code you've seen here in this Star Wars app in order to properly fetch the data and store it on Component State.
